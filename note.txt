@@ -1,0 +1,26 @@
+I reasoned that before we can build a chat application that stores username and chats in a database, the chat should first
+have a registeration landing page for it to have their username and other details stored in the database, which allows users
+to be able to login and logout anytime.
+once a user is logged in or register, on their homepage, i made an assumptions of having four buttons  which are for
+creating channel, viewing your created channel, viewing all created channel, posting chats on desired channel.
+
+create channel button - this button takes you to a page that allows you to create a chat(forum) where people you or people
+can post chat to.
+
+view your channel button - this button takes you to a page listing a the channels created by you, and clicking on the 
+viewing link on each channels will take you to the channel's page where you can post and see all the chats related to the
+channel
+
+view all channel button - this button takes you to the page listing all the channels available including the ones created 
+by other users, and clicking on the viewing link on each channels will take you to the channel's page where you can post 
+and see all the chats related to the channel
+
+chat button - this button takes you to the page where you can post your chat and have options to select the channel you
+want to post your chats to.
+
+basically i have four custom Apps - account, chat, homesite, post
+account app - this app takes care user loggin or registration, it has the form file for registeration and login
+post app - this apps has the models for creating channels
+chat app - this app has the models for posting chats in channels
+homesite app - this has the views,urls and templates for all the pages display on the chat
+
